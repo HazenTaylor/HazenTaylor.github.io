@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    div#name {
+      background-color: red;
+      border: solid;
+      height: 100px;
+      width: 100px;
+    }
+
+    div#hex {
+      /* hex represent color range is: 0-9 and a-f
+      /* ff0000->ff(red),00(green),00(blue)*/
+      background-color: #ff0000;
+      border: solid;
+      height: 100px;
+      width: 100px;
+    }
+
+    div#rgb {
+      /*      255, 0, 0: red,green,blue */
+      /*      0-255 */
+      background-color: rgb(255, 0, 0);
+      border: solid;
+      height: 100px;
+      width: 100px;
+    }
+
+    div#rgba {
+      /* alpha: 0-1    */
+      background-color: rgba(255, 0, 0, 0.2);
+      border: solid;
+      height: 100px;
+      width: 100px;
+    }
+
+    body {
+      /*      url: universal resource location*/
+      background-image: url(https://images.pexels.com/photos/36478/amazing-beautiful-beauty-blue.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    }
+  </style>
+</head>
+
+<body>
+  <div id='name'></div>
+  <br>
+  <div id='hex'></div>
+  <br>
+  <div id="rgb"></div>
+  <br>
+  <div id="rgba"></div>
+
+</body></html>
