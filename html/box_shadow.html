@@ -1,40 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>box_shadow.html</title>
+  <meta charset="UTF-8">
+  <title>box_shadow.html</title>
+  <style>
+    div {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin: auto;
+      margin-top: 50px;
+      transition: 1s;
+    }
 
-    <style>
-        div {
-            border: solid;
-            width: 100px;
-            height: 100px;
-            border-radius: 50%; 
-            background-color: blue;
-            margin: auto;
-            margin-top: 50px;
-
-            box-shadow: 0px 0px 7px 8px gray;
-        }
-    </style>
-
-
+    div:hover {
+      background-color: deepskyblue;
+      box-shadow: 0px 0px 5px 9px gray;
+    }
+  </style>
 </head>
 
-
-
 <body>
-    <div></div>
-    
-    <script>
-    btn.addEventListener('click', funtion() {}                   )
-    
-    
-    
-    
-    </script>
-    
-    
-    
-    
+
+  <div id='btn'></div>
+
+  <script>
+   let blue = true;
+    btn.addEventListener('click', function() {
+      if (blue === true) {
+        btn.style.backgroundColor = 'red';
+        blue = false;
+      } else {
+        btn.style.backgroundColor = 'deepskyblue';
+        blue = true;
+      }
+    });
+  </script>
+
 </body></html>
