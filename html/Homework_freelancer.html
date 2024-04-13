@@ -6,14 +6,22 @@
     <title>BootStrap</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
+        body {
+            margin: 0;
+        }
+
+
         /* header */
         header {
             background-color: #1abc9c;
-            text-align: center
+            text-align: center;
+            color: white;
+            padding: 100px 0;
+            padding-bottom: 70px;
         }
 
         .seperator {
-            text-align: center
+            text-align: center;
         }
 
         .seperator hr {
@@ -28,16 +36,33 @@
         .seperator i {
             font-size: 32px;
             color: white;
-            margin: 0 14px
+            margin: 0 14px;
         }
 
         header img {
             width: 250px;
-            text-align: center
+            text-align: center;
         }
 
         header h1 {
             font-size: 46px;
+            margin-bottom: 25px;
+        }
+
+        #portfolio {
+            text-align: center;
+        }
+
+        .seperator.black hr {
+            background-color: rgb(44, 62, 80);
+        }
+
+        .seperator.black i {
+            color: rgb(44, 62, 80);
+        }
+
+        #portfolio img {
+            width: 150px;
         }
     </style>
 
@@ -53,5 +78,21 @@
         </div>
         <p>Graphic Artist - Web Designer - Illustrator</p>
     </header>
+    <section id="portfolio">
+        <h1>PORTFOLIO</h1>
+        <div class="seperator black">
+            <hr>
+            <i class="fa-solid fa-star"></i>
+            <hr>
+        </div>
+        <main>
+            <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cabin.png" alt="">
+            <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cake.png" alt="">
+            <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/circus.png" alt="">
+            <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/game.png" alt="">
+            <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/safe.png" alt="">
+            <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/submarine.png" alt="">
+        </main>
+    </section>
 
 </body></html>
